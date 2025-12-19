@@ -148,7 +148,7 @@ TESTS = {
 
 async def main():
     while True:
-        print("\n========== YouTubeSearchPython TEST MENU ==========")
+        print("\n========== YouTube-Search-Python TEST MENU ==========")
         for k, (name, _) in TESTS.items():
             print(f"{k}. {name}")
         print("0. Exit")
